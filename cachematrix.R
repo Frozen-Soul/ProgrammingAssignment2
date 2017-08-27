@@ -3,12 +3,14 @@
 
 ## Write a short comment describing this function
 
+##function to accept the matrix
 makeCacheMatrix <- function(x = matrix()) {
 inv <- NULL
 set <- function(z){
   x <<-z
   inv <- NULL
 }
+  ##assigning 
 get<-function() x
 setInv<-function(inverse)inv<<-inverse
 getInv<-function()inv
